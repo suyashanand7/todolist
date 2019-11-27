@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add</title>
+    <style>
+        body{
+            background: #20002c;
+            background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+            background: linear-gradient(to right, #cbb4d4, #20002c);
+
+        }
+        .a{
+            margin-top: 100px;
+            width: 30%;
+            margin-left: 470px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1 style="margin-top: 80px;">Add New Job</h1></center>
+    <div class="a">
+    <form action="/AddData" method="post" id='form'>
+                Add Job Name &nbsp;
+        <input type="text" name="job" id="job"><br><br>
+                Add Description
+        <input type="text" name="desc" id="desc"><br><br><br>
+        <center><button type="submit">Submit</button></center>
+    </form>
+    </div>
+</body>
+</html>
